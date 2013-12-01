@@ -1,7 +1,10 @@
-####ubuntu下好用的一些软件
+##ubuntu下好用的一些软件
 
 #####截图
 - shutter
+
+#####图书管理
+- calibre(处理epub、mobi神器)
 
 #####画电路板
 - kicad

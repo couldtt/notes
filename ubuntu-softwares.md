@@ -7,8 +7,11 @@
 - kicad
 
 #####数据库管理
-- sqlitebrowser
-- heidisql(wine模拟)
+- sqlite
+  - sqlitebrowser
+- mysql
+  - heidisql(wine模拟)
+  - tora
 
 #####服务器管理
 - pac(管理Linux和windows服务器神器)

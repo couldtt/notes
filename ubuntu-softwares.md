@@ -15,6 +15,8 @@
 - mysql
   - heidisql(wine模拟)
   - tora
+    - `sudo apt-get install tora`
+    - `sudo apt-get install libqt4-sql-mysql libqt4-sql-psql libqt4-sql-sqlite libqt4-sql-odbc libqt4-sql-tds`
 
 #####服务器管理
 - pac(管理Linux和windows服务器神器)

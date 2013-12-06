@@ -5,3 +5,9 @@
   - 设置`zsh`为默认的shell： `chsh -s /bin/zsh`
 - **id_rsa** 只有权限在600的时候，才有权限连接远程服务器,不能太OPEN了
 - **wget** 下载https文件不验证`wget https://xxxxxx.xxx --no-check-certificate`
+- **rename** 批量修改文件名
+  - c语言版本的（centos上貌似还是这个版本）
+    - 用法：rename from to file
+    - 例子：rename .tbi .jpg *.tbi (说明：将所有后缀为.tbi的文件，重命名为jpg的文件)
+    - 缺点：无法实现循环，按照编号重命名
+  - perl脚本版本的（debian系里面貌似都是这个版本的）

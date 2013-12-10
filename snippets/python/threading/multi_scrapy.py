@@ -32,6 +32,7 @@ def main():
         for j in range(start,end,6):
             scrapy = Scrapy('scrapy', str(i))
             scrapy.start()
+        scrapy.join()
 
 
 if __name__ == '__main__':
